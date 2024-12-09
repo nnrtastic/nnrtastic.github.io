@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: flex-start; /* Align content to the left */
     height: 90vh; /* Full-screen height */
-    background-image: url('./images/banner-2.jpg');
+    background-image: url('https://i.ibb.co/LYNz76P/banner-2.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
