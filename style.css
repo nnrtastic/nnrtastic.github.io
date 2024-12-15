@@ -48,9 +48,6 @@
 .hero-content a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FFDE21;
-    color: #1d2530;
-    text-decoration: none;
     border-radius: 5px;
 }
 
@@ -58,6 +55,19 @@
     background-color: white;
     color: #1d2530;
 }
+
+.hero-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background-color: white;
+    color: #1d2530;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -78,6 +88,10 @@
     .hero-content p {
         font-size: 0.9rem;
     }
+
+    .card-text {
+        font-size: 0.9rem;
+      }
 }
 
 .custom-table-welcome {
@@ -101,10 +115,6 @@
     padding: 2px; /* Adjust the padding value as needed */
     display: block; /* Ensures the container is block-level to apply padding */
     box-sizing: border-box; /* Ensures padding is included in the total width/height calculation */
-}
-
-.map-container {
-    padding: 2rem;
 }
 
 table {
@@ -147,4 +157,17 @@ th, td {
 
 .custom-image-container{
     background-color: yellow;
+}
+
+
+.border-custom-pickup {
+    border: 2px solid #007bff; /* You can change the color and thickness */
+    padding: 20px; /* Optional: Add padding inside the border */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.border-custom-delivery {
+    border: 2px solid #198754; /* You can change the color and thickness */
+    padding: 20px; /* Optional: Add padding inside the border */
+    border-radius: 8px; /* Optional: Rounded corners */
 }
