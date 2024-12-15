@@ -4,7 +4,7 @@
     position: relative; /* Positioning for overlay */
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Align content to the left */
+    justify-content: center ; /* Align content to the left  flex-start*/
     height: 90vh; /* Full-screen height */
     background-image: url('https://i.ibb.co/LYNz76P/banner-2.jpg');
     background-size: cover;
@@ -33,6 +33,7 @@
     border-radius: 10px; /* Rounded corners */
     max-width: 500px; /* Adjust width of the container */
     text-align: justify;
+    font-weight: 100;
 }
 
 .hero-content h1 {
@@ -59,6 +60,7 @@
 .hero-content button {
     display: inline-block;
     padding: 10px 20px;
+
     border-radius: 5px;
 }
 
@@ -127,9 +129,6 @@ th, td {
     padding: 6px;
     vertical-align: top;
 }
-
-
-
 
 /* Container for the images */
 .image-grid {
