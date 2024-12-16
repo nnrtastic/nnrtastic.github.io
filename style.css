@@ -1,12 +1,12 @@
 
-/* HERO SECTION */
+/* HOME HERO SECTION */
 .hero-section {
     position: relative; /* Positioning for overlay */
     display: flex;
     align-items: center;
     justify-content: center ; /* Align content to the left  flex-start*/
     height: 90vh; /* Full-screen height */
-    background-image: url('https://i.ibb.co/LYNz76P/banner-2.jpg');
+    background-image: url('./images/banner-2.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -24,6 +24,29 @@
     z-index: 1; /* Ensure overlay is above the background but below the content */
 }
 
+/* CONTACT HERO SECTION */
+.contact-hero-section {
+    position: relative; /* Positioning for overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center ; /* Align content to the left  flex-start*/
+    height: 30vh; /* Full-screen height */
+    background-image: url('./images/front.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-top: 106px; 
+}
+
+.contact-hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    z-index: 1; /* Ensure overlay is above the background but below the content */
+}
 
 /* Hero content Styling */
 .hero-content {
@@ -133,6 +156,17 @@ th, td {
     vertical-align: top;
 }
 
+.table-contact-us {
+    /* border-collapse: separate; Required for border-spacing to work */
+    border-spacing: 0 10px; /* Horizontal (0) and vertical (10px) spacing */
+    width: 80%;
+}
+
+.table-contact-us th, td {
+    padding: 5px 5px 0px 0px;
+    vertical-align: top;
+}
+
 /* Container for the images */
 .image-grid {
     display: grid;
@@ -174,6 +208,7 @@ th, td {
     border-radius: 8px; /* Optional: Rounded corners */
 }
 
+
 #navbar {
     position: fixed;
     top: 0;
@@ -182,4 +217,64 @@ th, td {
     transition: transform 0.3s ease-in-out;
     z-index: 100;
     box-sizing: border-box;
+}
+
+/* Call Us Button Styling */
+.call-us-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem; /* Icon size */
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.call-us-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    color: #fff;
+}
+
+/* Back to Top Button Styling */
+.back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 0.9); /* Green background */
+    color: grey;
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem; /* Icon size */
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.call-us-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    color: #fff;
+}
+
+/* Make sure button is visible when the page scrolls */
+.back-to-top.show {
+    display: flex;
+}
+
+/* Initially hide the button */
+.back-to-top {
+    display: none;
 }
