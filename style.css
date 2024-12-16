@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: center;
     padding: 20px;
+    margin-top: 106px; 
 }
 
 /* Overlay */
@@ -90,7 +91,9 @@
     .hero-content p {
         font-size: 0.9rem;
     }
+}
 
+@media (max-width: 1242px) {
     .card-text {
         font-size: 0.9rem;
       }
@@ -169,4 +172,14 @@ th, td {
     border: 2px solid #198754; /* You can change the color and thickness */
     padding: 20px; /* Optional: Add padding inside the border */
     border-radius: 8px; /* Optional: Rounded corners */
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:flex;
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+    box-sizing: border-box;
 }
