@@ -1,0 +1,29 @@
+/* Container for the images 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+*/
+
+
+/* Image items */
+.image-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive images */
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+}
+
+.custom-image-container{
+    background-color: yellow;
+}

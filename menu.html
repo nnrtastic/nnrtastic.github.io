@@ -1,0 +1,1141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Noodle n' Rolls - tastic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Noodle n' Rolls - tastic">
+    <meta property="og:description" content="Providing the best authentic Vietnamese dishes in the area.">
+    <meta property="og:image" content="https://nnrtastic.github.io/images/banner-2.jpg">
+    <meta property="og:image:alt" content="Noodle n' Rolls - tastic website">
+    <meta property="og:url" content="https://nnrtastic.github.io/home.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Noodle n' Rolls - tastic">
+    <meta name="twitter:description" content="Providing the best authentic Vietnamese dishes in the area.">
+    <meta name="twitter:image" content="https://nnrtastic.github.io/images/banner-2.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon_io/favicon.ico">
+
+    <!-- For .png format -->
+    <link rel="icon" type="image/png" href="./images/favicon_io/favicon.png" sizes="32x32">
+  
+    <!-- Optional: Support for other devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="./images/favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <div>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary dark" data-bs-theme="dark" id="navbar">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand text-warning" href="#">
+                <img src="./images/logo-removebg.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
+                Noodle n' Rolls-tastic
+            </a>
+            <!-- toggler-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation bar -->
+            <div class="collapse navbar-collapse me-5 ms-2" id="navbarNav">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-warning link-light" href="./home.html">HOME</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-light" aria-current="page" href="./menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-warning link-light" href="https://nnrtastic.resos.com/booking" target="_blank">RESERVATIONS</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-warning link-light" href="./contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <button type="button" class="btn btn-outline-warning fw-medium" data-bs-toggle="modal" data-bs-target="#orderNow">
+                            ORDER NOW
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Modal ORDER NOW-->
+    <div class="modal fade" id="orderNow" tabindex="-1" aria-labelledby="orderNowLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5 text-center" id="orderNowLabel">PLACE AN ORDER</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 border-custom-pickup mx-2 my-2">
+                                <div class="mb-5">
+                                    <p class="fs-4 fw-bold text-primary text-center">PICK UP</p>
+                                    <!-- Pick Up Details -->
+                                    <p>Call us at <strong>034654654</strong> to place your order.</p>
+                                    <!-- Pick Up Directions -->
+                                    <p class="text-secondary" style="font-size: 0.9rem;">
+                                        Pick up your order at our location: 
+                                        <a href="https://www.google.com/maps/dir//Noodles+n+Rolls-tastic+C.H+Smith+building+(NnR-tastic),+C.H+Smith+Building,+16-24+Charles+St,+Launceston+TAS+7250/@-41.4357036,147.0929692,13z/data=!3m1!5s0xaa70a6df9c556e13:0xdf9461025686a85a!4m8!4m7!1m0!1m5!1m1!1s0xaa70a78d70dd3a53:0x74cf115390b6b091!2m2!1d147.1341688!2d-41.4357753?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" 
+                                        target="_blank" class="text-decoration-none text-primary">Get Directions</a>
+                                    </p>
+                                </div>
+                                <!-- Pick Up Details -->
+                                <div class="mt-5 pt-4 text-center">
+                                    <a href="tel:+034654654" class="btn btn-outline-primary btn-sm">Click here to call us</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-1"></div>
+
+                            <div class="col-lg-5 border-custom-delivery mx-2 my-2">
+                                <div>
+                                    <!-- Delivery Section -->
+                                    <div>
+                                        <p class="fs-4 fw-bold text-success text-center">DELIVERY</p>
+                                        <p>Order through <strong>Uber Eats</strong> for home delivery.</p>
+                                        <p class="text-secondary" style="font-size: 0.9rem;">
+                                            * Prices on Uber Eats may be up to 30% higher due to additional service charges.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="https://www.ubereats.com/au/store/noodles-n-rolls-tastic/Ti_DtuG8RAKHtjNOv1YCdA?srsltid=AfmBOopr2_e4H15tqAc9VEhNkuK5425wqmdmDnZxLE4-gt1dbL7DxlAu" 
+                                            target="_blank" class="btn btn-outline-success btn-sm">Continue to Uber Eats</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOME HERO SECTION -->
+    <div class="contact-hero-section">
+        <div class="overlay"></div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="container-fluid mt-5 px-0">
+        <h1 class="fw-bold text-center mb-1">
+            <span>MENU</span>
+            <br>
+            <span class="text-warning">────</span>
+        </h1>
+
+        <!-- Search Bar -->
+        <div class="container-fluid px-0" id="menu-search-bar"> 
+            <nav id="menu" class="navbar bg-white px-3 mb-3 d-flex justify-content-center">
+                <ul class="nav nav-underline d-flex justify-content-center align-items-center pt-2 border-bottom border-light">
+                    <input type="text" id="searchBar" class="form-control" placeholder="Search for dishes..." onkeyup="searchMenu()">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Entrees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Banh mi</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-responsive">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">Rice paper rolls</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">Noodle soup</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading5">Laksa</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading6">Fried rice </a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading7">Noodle salad</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading8">Stir-fry noodles</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading9">Steamed rice</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading3">Rice paper rolls</a>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading4">Noodle soup</a>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading5">Laksa</a>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading6">Fried rice</a>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading7">Noodle salad</a>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading8">Stir-fry noodles</a>
+                    </li>
+                    <li class="nav-item nav-item-responsive">
+                        <a class="nav-link" href="#scrollspyHeading9">Steamed rice</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="container px-4" style="margin-top: 20px;"data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="10">
+            <!-- ENTREES -->
+            <div class="menu-category">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading1">
+                    <span>ENTREES</span>
+                    <br>
+                    <span class="text-warning">─────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Homemade Pork Spring Roll -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Homemade Pork Spring Roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Homemade Pork Spring Roll</h5>
+                                    <p class="text-warning fw-bold">$2.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Homemade Vegetarian Spring Roll -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Homemade Vegetarian Spring Roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Homemade Vegetarian Spring Roll</h5>
+                                    <p class="text-warning fw-bold">$2.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Homemade Dimsim Skewer -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Homemade Dimsim Skewer" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Homemade Dimsim Skewer</h5>
+                                    <p class="text-warning fw-bold">$4.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chicken Dimsim -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Chicken Dimsim" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Chicken Dimsim</h5>
+                                    <p class="text-warning fw-bold">$4.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Vegetarian Dimsim -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Vegetarian Dimsim" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Vegetarian Dimsim</h5>
+                                    <p class="text-warning fw-bold">$4.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- French Fries (Chips) -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="French Fries (Chips)" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">French Fries (Chips)</h5>
+                                    <p class="text-warning fw-bold">$5.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- VIETNAMESE BREAD ROLLS (BANH MI) -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading2">
+                    <span>VIETNAMESE BREAD ROLLS</span>
+                    <br>
+                    <span>(BANH MI)</span>
+                    <br>
+                    <span class="text-warning">──────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Grilled Pork Roll -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Grilled Pork Roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Grilled Pork Roll</h5>
+                                    <p class="card-text text-muted">
+                                        Grilled Pork served with pickled carrot & white radish, cucumber, spring onion, coriander, pate, 
+                                        mayo & special sauce (NGF).
+                                    </p>
+                                    <p class="text-warning fw-bold">$9.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grilled Chicken Roll -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Grilled Chicken Roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Grilled Chicken Roll</h5>
+                                    <p class="card-text text-muted">
+                                        Grilled Chicken served with pickled carrot & white radish, cucumber, spring onion, coriander, pate, 
+                                        mayo & special sauce (NGF).
+                                    </p>
+                                    <p class="text-warning fw-bold">$9.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Vegetarian Tofu Roll -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Vegetarian Tofu Roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Vegetarian Tofu Roll</h5>
+                                    <p class="card-text text-muted">
+                                        Vegetarian Tofu served with pickled carrot & white radish, cucumber, spring onion, coriander, sweet chilli sauce & 
+                                        soy sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$9.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Roasted Pork Belly roll -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Roasted Pork Belly roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Roasted Pork Belly roll</h5>
+                                    <p class="card-text text-muted">
+                                        Roasted Pork Belly served with pickled carrot & white radish, cucumber, spring onion, coriander, pate, 
+                                        mayo & special sauce (NGF).
+                                    </p>
+                                    <p class="text-warning fw-bold">$10.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FRESH RICE PAPER ROLLS (GOI CUON) -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading3">
+                    <span>FRESH RICE PAPER ROLLS</span>
+                    <br>
+                    <span>(GOI CUON)</span>
+                    <br>
+                    <span class="text-warning">──────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Prawn and BBQ pork -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Prawn and BBQ pork rice paper roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Prawn and BBQ Pork</h5>
+                                    <p class="card-text text-muted">
+                                        Fine rice paper wrapped around prawn, bbq pork, 
+                                        rice vermicelli noodle and lettuce served w/ hoisin sauce & optional crushed peanuts.
+                                    </p>
+                                    <p class="text-warning fw-bold">$4.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chicken -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Chicken Rice Paper Roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Chicken</h5>
+                                    <p class="card-text text-muted">
+                                        Fine rice paper wrapped around chicken, 
+                                        rice vermicelli noodle and lettuce served w/ hoisin sauce & optional crushed peanuts.
+                                    </p>
+                                    <p class="text-warning fw-bold">$4.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Prawn and avocado -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Prawn and avocado rice paper roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Prawn and Avocado</h5>
+                                    <p class="card-text text-muted">
+                                        Fine rice paper wrapped around prawn, avocado, 
+                                        rice vermicelli noodle and lettuce served w/ hoisin sauce & optional crushed peanuts.
+                                    </p>
+                                    <p class="text-warning fw-bold">$4.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vegetarian Tofu -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Vegetarian Tofu rice paper roll" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Vegetarian Tofu</h5>
+                                    <p class="card-text text-muted">
+                                        Fine rice paper wrapped around vegetarian tofu, 
+                                        rice vermicelli noodle and lettuce served w/ hoisin sauce & optional crushed peanuts.
+                                    </p>
+                                    <p class="text-warning fw-bold">$4.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NOODLE SOUP -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading4">
+                    <span>NOODLE SOUP</span>
+                    <br>
+                    <span class="text-warning">───────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- beef pho -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="beef pho" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Beef Noodle Soup (Pho Bo)</h5>
+                                    <p class="card-text text-muted">Slices of beef, flat rice noodles, springs onion, coriander.
+                                        Served w/ bean sprouts, lemon and fresh chilli.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chicken pho -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="chicken pho" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Chicken Noodle Soup (Pho Ga)</h5>
+                                    <p class="card-text text-muted">Slices of chicken, flat rice noodles, springs onion, coriander.
+                                        Served w/ bean sprouts, lemon and fresh chilli.</p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Vegetable noodle soup -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Vegetable noodle soup" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Vegetable Noodle Soup</h5>
+                                    <p class="card-text text-muted">Tofu, flat rice noodles, seasonal vegetables, springs onion, coriander.
+                                        Served w/bean sprouts, lemon and fresh chilli.</p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Special noodle soup -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Special noodle soup" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Special Noodle Soup</h5>
+                                    <p class="card-text text-muted">Combination of rare beef, brisket beef and beef meat balls w/flat rice
+                                        noodles, springs onion, coriander. Served w/bean sprouts, lemon and
+                                        fresh chilli.</p>
+                                    <p class="text-warning fw-bold">$22.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Spicy beef noodle soup (Bun Bo) -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Spicy beef noodle soup (Bun Bo)" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Spicy Beef Noodle Soup (Bun Bo) <span class="chilli">&#x1F336 &#x1F336 &#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">Slices of beef, pork ham, rice noodle, in special home made spicy,
+                                        lemongrass soup served w/mixed salad and lemon.</p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Wonton noodle soup -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Wonton noodle soup" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Wonton Noodle Soup</h5>
+                                    <p class="card-text text-muted">Thin egg noodle,bbq pork,wontons served w/bok choy,spring
+                                        onion,shallot and bean sprouts.</p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Crispy chicken noodle soup -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Crispy chicken noodle soup" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Crispy Chicken Noodle Soup</h5>
+                                    <p class="card-text text-muted">Thin egg noodle, maryland chicken served w/bok choy, carrots and
+                                        bean sprouts.</p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Roasted duck noodle soup -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Roasted duck noodle soup" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Roasted Duck Noodle Soup</h5>
+                                    <p class="card-text text-muted">Thin egg noodles, w/bok choy, carrot, spring onion, shallot and
+                                        bean sprouts.</p>
+                                    <p class="text-warning fw-bold">$22.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+
+            <!-- LAKSA NOODLE SOUP -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading5">
+                    <span>LAKSA NOODLE SOUP</span>
+                    <br>
+                    <span class="text-warning">────────────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Chicken laksa -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Chicken laksa" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Chicken Laksa <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Hokkien noodle served w/chicken, green onion, shallot, bean sprouts in coconut curry soup.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vegetable Laksa -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Vegetable Laksa" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Vegetable Laksa <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Hokkien noodle served w/tofu, sesonal vegetables, green onion, shallot, bean sprouts in coconut curry soup.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Seafood Laksa -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Seafood Laksa" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Seafood Laksa <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Hokkien noodle served w/prawns, shrimps, squid, fish cake, green onion, shallots, bean sprouts in coconut curry soup.
+                                    </p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FRIED RICE -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading6">
+                    <span>FRIED RICE</span>
+                    <br>
+                    <span class="text-warning">──────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Combo Fied Rice -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Combo Fied Rice" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Combo Fied Rice</h5>
+                                    <p class="card-text text-muted">
+                                        Fried rice w/egg, bbq pork, prawns, shrimps, chinese sausage, squid, fishcake and mix vegetables in special sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Nasi Goreng -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Nasi Goreng" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Nasi Goreng <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Fried rice w/egg, chicken, beef, prawns, shrimps and mix vegetables in chilli sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NOODLE SALAD -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading7">
+                    <span>NOODLE SALAD</span>
+                    <br>
+                    <span class="text-warning">─────────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Grilled Pork -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Grilled Pork Noodle Salad" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Grilled Pork Noodle Salad</h5>
+                                    <p class="card-text text-muted">
+                                        Grilled Pork served w/ rice vermicelli, bean sprouts, shredded carrots and light fish sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Spring rolls -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Spring Rolls Noodle Salad" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Spring Rolls Noodle Salad</h5>
+                                    <p class="card-text text-muted">
+                                        Spring Rolls served w/ rice vermicelli, bean sprouts, shredded carrots and light fish sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Special Noodle Salad -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Special Noodle Salad" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Special Noodle Salad</h5>
+                                    <p class="card-text text-muted">
+                                        Grilled Pork and Spring Rolls served w/ rice vermicelli, bean sprouts, shredded carrots and light fish sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$21.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Roasted Pork Noodle Salad -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Roasted Pork Noodle Salad" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Roasted Pork Noodle Salad</h5>
+                                    <p class="card-text text-muted">
+                                        Roasted Pork served w/ rice vermicelli, bean sprouts, shredded carrots and light fish sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$21.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STIR-FRY NOODLES -->
+            <div class="menu-category mt-5">
+                <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading8">
+                    <span>STIR-FRY NOODLES</span>
+                    <br>
+                    <span class="text-warning">───────────</span>
+                </h4>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Fried Koay Toew -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://i.ibb.co/9w1M6R1/fried-koay-toew.png" class="img-fluid" alt="Fried Koay Toew" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Fried Koay Toew <span class="chilli">&#x1F336 &#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Flat rice noodle w/egg, chicken,mixed seafood and seasonal vegetables in spicy chilli soy sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Satay Chicken Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://i.ibb.co/tZF2xKK/satay-chicken.jpg" class="img-fluid" alt="Satay Chicken Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Satay Chicken Noodle <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Hokkien noodle w/chicken and seasonal vegetables in our satay sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Hokkien Mee Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Hokkien Mee Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Hokkien Mee Noodle <span class="chilli">&#x1F336 &#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Hokkien noodle w/bbq pork,mixed seafood and seasonal vegetables in chilli sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sambal Udon -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Sambal Udon" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Sambal Udon <span class="chilli">&#x1F336 &#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Udon noodle, chicken,beef,bbq pork, shrimps, squid and seasonal vegetables in sambal sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Hot Box -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Hot Box" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Hot Box <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Thin egg noodle w/bbq pork, chicken, beef, shrimps and seasonal vegetables in sambal sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Singapore Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Singapore Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">
+                                        Singapore Noodle <span class="chilli">&#x1F336</span>
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Thin rice noodle w/egg, bbq pork, prawns, shrimps and seasonal vegetables in curry sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$20.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Beef Stir-fry Egg Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Beef Stir-fry Egg Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Beef Stir-fry Egg Noodle</h5>
+                                    <p class="card-text text-muted">
+                                        Egg noodle w/ beef and seasonal vegetables in our soy sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tofu Egg Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Tofu Egg Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Tofu Egg Noodle</h5>
+                                    <p class="card-text text-muted">
+                                        Egg noodle w/tofu and seasonal vegetables in our soy sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-1" id="menuItems">
+                    <!-- Garlic Prawn Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Garlic Prawn Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Garlic Prawn Noodle</h5>
+                                    <p class="card-text text-muted">
+                                        Thin egg noodle, prawns and seasonal vegetables in our special garlic sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$21.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Teriyaki Chicken Noodle -->
+                    <div class="col-lg-6 menu-item">
+                        <div class="card border-0 shadow-sm mt-1">
+                            <div class="d-flex flex-row-reverse align-items-center">
+                                <img src="https://via.placeholder.com/150" class="img-fluid" alt="Teriyaki Chicken Noodle" style="object-fit: cover; border-radius: 8px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Teriyaki Chicken Noodle</h5>
+                                    <p class="card-text text-muted">
+                                        Udon noodle w/chicken and seasonal vegetables in our Teriyaki sauce.
+                                    </p>
+                                    <p class="text-warning fw-bold">$19.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STEAMED RICE -->
+            <div class="menu-category mt-5 mb-5">
+            <h4 class="fw-bold fs-3 text-center" id="scrollspyHeading9">
+                <span>STEAMED RICE</span>
+                <br>
+                <span class="text-warning">────────</span>
+            </h4>
+            <div class="row g-4 mt-1" id="menuItems">
+                <!-- Beef Lemongrass Chilli -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Beef Lemongrass Chilli" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Beef Lemongrass Chilli</h5>
+                                <p class="card-text text-muted">
+                                    Slices of beef served w/ carrots, green beans, onion, lemongrass and special homemade chilli sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$19.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chicken Lemongrass Chilli -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Chicken Lemongrass Chilli" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Chicken Lemongrass Chilli</h5>
+                                <p class="card-text text-muted">
+                                    Slices of chicken served w/ carrots, green beans, onion, lemongrass and special homemade chilli sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$19.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-1" id="menuItems">
+                <!-- Tofu Lemongrass Chilli -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Tofu Lemongrass Chilli" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Tofu Lemongrass Chilli</h5>
+                                <p class="card-text text-muted">
+                                    Slices of tofu served w/ carrots, green beans, onion, lemongrass and special homemade sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$19.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Crispy Chicken -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://i.ibb.co/ncFBGTc/crispy-chicken-rice.jpg" class="img-fluid" alt="Crispy Chicken" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Crispy Chicken</h5>
+                                <p class="card-text text-muted">
+                                    Served w/ lettuces, sheredded carrots, cucumbers and light soy sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$20.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-1" id="menuItems">
+                <!-- Roasted Pork Belly -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Roasted Pork Belly" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Roasted Pork Belly</h5>
+                                <p class="card-text text-muted">
+                                    Served w/ lettuces, sheredded carrots, cucumbers and light soy sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$21.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Roasted Duck -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Roasted Duck" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Roasted Duck</h5>
+                                <p class="card-text text-muted">
+                                    Served w/ lettuces, sheredded carrots, cucumbers and light soy sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$22.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 mt-1" id="menuItems">
+                <!-- Grilled Pork -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Grilled Pork" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Grilled Pork</h5>
+                                <p class="card-text text-muted">
+                                    Served w/ lettuces, sheredded carrots, cucumbers and light soy sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$19.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grilled Chicken -->
+                <div class="col-lg-6 menu-item">
+                    <div class="card border-0 shadow-sm mt-1">
+                        <div class="d-flex flex-row-reverse align-items-center">
+                            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Grilled Chicken" style="object-fit: cover; border-radius: 8px;">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Grilled Chicken</h5>
+                                <p class="card-text text-muted">
+                                    Served w/ lettuces, sheredded carrots, cucumbers and light soy sauce.
+                                </p>
+                                <p class="text-warning fw-bold">$19.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Call Us Button -->
+    <a href="tel:+61363334688" class="call-us-btn" title="Call Us">
+        <i class="bi bi-telephone-outbound-fill"></i>
+    </a>
+
+    <!-- Call Us Button -->
+    <a href="./home.html" class="back-to-top" title="Call Us">
+        <i class="bi bi-chevron-up"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-3">
+        <div class="container ps-4">
+            <div class="row">
+                <div class="col-lg-3 text-center mb-4">
+                    <a class="navbar-brand text-warning text-center" href="#">
+                        <img src="./images/logo-removebg.png" alt="Logo" width="80" height="80" class="d-block mx-auto">
+                        <span class="d-block mt-2">Noodle n' Rolls-tastic</span>
+                    </a>
+                </div>
+                <!-- About  & Social Media-->
+                <div class="col-lg-4 mb-3">
+                    <div>
+                        <h5 class="text-warning">About Us</h5>
+                        <p>Providing the best authentic Vietnamese dishes in area.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="text-warning">Follow Us</h5>
+                        <a href="https://www.facebook.com/nnr.tastic" target="_blank" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-2 mb-3">
+                    <h5 class="text-warning">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./home.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="./menu.html" class="text-light text-decoration-none">Menu</a></li>
+                        <li><a href="https://nnrtastic.resos.com/booking" target="_blank" class="text-light text-decoration-none">Reservations</a></li>
+                        <li><a href="./contact.html" class="text-light text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Section -->
+                <div class="col-lg-3 mb-3">
+                    <h5 class="text-warning">Contact</h5>
+                    <p><a href="tel:0363334688" class="text-light text-decoration-none">(03) 6333 4688</a></p>
+                    <p><a href="mailto:nnr.tastic@gmail.com" class="text-light text-decoration-none">nnr.tastic@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="mb-0">&copy; 2021 Noodle n' Rolls-tastic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -93,8 +93,6 @@
     color: #1d2530;
 }
 
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section {
@@ -116,12 +114,14 @@
     }
 }
 
+/* Google review*/
 @media (max-width: 1242px) {
     .card-text {
         font-size: 0.9rem;
       }
 }
 
+/* welcome to our restaurant part */
 .custom-table-welcome {
     width: 100%; /* Ensure the table takes the full width of its container */
     table-layout: fixed; /* Ensure each cell has a fixed width */
@@ -145,6 +145,8 @@
     box-sizing: border-box; /* Ensures padding is included in the total width/height calculation */
 }
 
+
+/* opening hours */
 table {
     /* border-collapse: separate; Required for border-spacing to work */
     border-spacing: 0 10px; /* Horizontal (0) and vertical (10px) spacing */
@@ -156,6 +158,8 @@ th, td {
     vertical-align: top;
 }
 
+
+/* contact us */
 .table-contact-us {
     /* border-collapse: separate; Required for border-spacing to work */
     border-spacing: 0 10px; /* Horizontal (0) and vertical (10px) spacing */
@@ -167,48 +171,22 @@ th, td {
     vertical-align: top;
 }
 
-/* Container for the images */
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Automatically adjust columns */
-    gap: 15px; /* Space between items */
-    padding: 10px;
-}
 
-/* Image items */
-.image-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive images */
-.image-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-}
-
-.custom-image-container{
-    background-color: yellow;
-}
-
-
+/* modal order now*/
 .border-custom-pickup {
-    border: 2px solid #007bff; /* You can change the color and thickness */
-    padding: 20px; /* Optional: Add padding inside the border */
-    border-radius: 8px; /* Optional: Rounded corners */
+    border: 2px solid #007bff; /*thickness and color */
+    padding: 20px; /* Add padding inside the border */
+    border-radius: 8px; /* Rounded corners */
 }
 
 .border-custom-delivery {
-    border: 2px solid #198754; /* You can change the color and thickness */
-    padding: 20px; /* Optional: Add padding inside the border */
-    border-radius: 8px; /* Optional: Rounded corners */
+    border: 2px solid #198754; 
+    padding: 20px; 
+    border-radius: 8px;
 }
 
 
+/* navbar */
 #navbar {
     position: fixed;
     top: 0;
@@ -218,6 +196,7 @@ th, td {
     z-index: 100;
     box-sizing: border-box;
 }
+
 
 /* Call Us Button Styling */
 .call-us-btn {
@@ -243,6 +222,7 @@ th, td {
     background-color: #218838; /* Darker green on hover */
     color: #fff;
 }
+
 
 /* Back to Top Button Styling */
 .back-to-top {
@@ -278,3 +258,97 @@ th, td {
 .back-to-top {
     display: none;
 }
+
+
+/* MENU */
+.flex-card {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.card-body {
+    flex: 1;
+    height: 192px;
+}
+.card-body .card-text {
+    text-align: justify;
+}
+.card-body .chilli {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .menu-item .card-title{
+        font-size: 15px;
+    }
+
+    .menu-item .card-text{
+        font-size: 11px;
+    }
+
+    .menu-item .card-body {
+        flex: 1;
+        height: 150px;
+        font-size: 11px;
+    }
+
+    .card-body .chilli {
+        font-size: 10px;
+    }
+
+    .menu-item img {
+        height: 80px; /* Target the image directly inside menu-item */
+        width: auto;  /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure the image scales nicely */
+    }
+}
+
+/* menu */
+#menu-search-bar {
+    position: relative;
+    top: 0px; /*480 */
+    left: 0;  /* Align to the left of the screen */
+    width: 100%;  /* Make it span the entire width */
+    display: block; /* Default display for the search bar */
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+
+.dropdown-responsive {
+    display: none;
+}
+
+.dropdown-responsive .dropdown-item {
+    font-size: 13px;
+}
+
+@media (max-width: 992px) {
+    .dropdown-responsive {
+        display: flex;
+    }
+    .nav-item-responsive {
+        display: none;
+    }
+    #menu-search-bar{
+        font-size: small;
+    }
+    .form-control {
+        font-size: small;
+    }
+    #menu .nav-link {
+        color: black;
+    }
+}
+
+
+#menu .nav-link {
+    color: black;
+}
+
+#menu .dropdown-item {
+    color: black;
+}
+
